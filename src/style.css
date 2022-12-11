@@ -1,10 +1,13 @@
 @font-face {
     font-family: 'Open Sans';
+    src: url('./static/OpenSans/OpenSans-Regular.eot');
+    src: url('./static/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./static/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+    url('./static/OpenSans/OpenSans-Regular.woff') format('woff'),
+    url('./static/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local('Open Sans'),
-    url("./static/OpenSans/OpenSans-Regular.ttf") format("ttf");
+    font-display: swap;
 }
 @font-face {
     font-family: 'Open Sans';
@@ -284,7 +287,7 @@ header{
     position: absolute;
     z-index: 2;
     right: 0px;
-    top: -4px;
+    top: -1px;
     color: white;
 }
 .pictureCart{
