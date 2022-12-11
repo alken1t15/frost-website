@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("Roboto"),
+    src: local("Open Sans"),
     url("./static/OpenSans/OpenSans-Regular.ttf") format(".ttf");
 }
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 600;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("Roboto"),
+    src: local("Open Sans"),
     url("./static/OpenSans/OpenSans-SemiBold.ttf") format(".ttf");
 }
 @font-face {
@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: 700;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("Roboto"),
+    src: local("Open Sans"),
     url("./static/OpenSans/OpenSans-Bold.ttf") format(".ttf");
 }
 *{
