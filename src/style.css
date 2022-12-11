@@ -9,21 +9,29 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Open Sans';
-    font-style: normal;
+    src: url('./static/OpenSans/OpenSans-SemiBold.eot');
+    src: url('./static/OpenSans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./static/OpenSans/OpenSans-SemiBold.woff2') format('woff2'),
+    url('./static/OpenSans/OpenSans-SemiBold.woff') format('woff'),
+    url('./static/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
     font-weight: 600;
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local('Open Sans'),
-    url("./static/OpenSans/OpenSans-SemiBold.ttf") format("ttf");
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Open Sans';
+    src: url('./static/OpenSans/OpenSans-Medium.eot');
+    src: url('./static/OpenSans/OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./static/OpenSans/OpenSans-Medium.woff2') format('woff2'),
+    url('./static/OpenSans/OpenSans-Medium.woff') format('woff'),
+    url('./static/OpenSans/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
-    font-weight: 700;
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local('Open Sans'),
-    url("./static/OpenSans/OpenSans-Bold.ttf") format("ttf");
+    font-display: swap;
 }
 *{
     margin: 0;
